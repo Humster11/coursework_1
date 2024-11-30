@@ -46,7 +46,7 @@ public class Main {
     }
 
     public static void allEmployeeFIO(Employee[] Employees){
-        System.out.println("ФИО всех сотрудников: ");
+        System.out.println("ФИО всех сотрудников:");
         for (int i = 0; i <= Employees.length - 1; i++) {
             System.out.println(Employees[i].getSurname() + " "+Employees[i].getName()+" "+Employees[i].getPatronymic());
         }

@@ -14,7 +14,7 @@ public class Employee {
         this.patronymic = patronymic;
         this.department = department;
         this.salary = salary;
-        this.id++;
+        this.id;
     }
 
     public String getName() {
